@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#main #navbar {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navbar h1 {
+    font-size: 300%;
+    color: white;
+}
+
+#navbar #text {
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    font-size: 90%;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+#main #section01 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.prod.website-files.com/69e54bc23a3ed36aaabaad40/6a1f0239886b36a2baed4eab_ChatGPT%20Image%202%20jun%202026%2C%2013_17_57-p-1600.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section01 #Nevire{
+    width: 60%;
+    height: 40vh;
+    background-image: url(https://cdn.prod.website-files.com/69e54bc23a3ed36aaabaad40/6a1f0239886b36a2baed4eab_ChatGPT%20Image%202%20jun%202026%2C%2013_17_57.png);
+}
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/karunakourav/firstProject.git 
+git push -u origin main
