@@ -125,7 +125,7 @@ body {
     padding: 2.2% 1.8%;
 }
 
-#main #inner-section02{
+#main #inner-section02 {
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -172,7 +172,7 @@ body {
     text-align: left;
 }
 
-#section02 .sec02text03{
+#section02 .sec02text03 {
     width: 100%;
     display: flex;
     align-items: center;
@@ -187,3 +187,105 @@ body {
     letter-spacing: -1px;
 }
 
+#main #section03 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+#section03 #sec-03-text-01 {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+#sec-03-text-01 .text-01-h1 {
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sec-03-text-01 .text-01-h1 .text {
+    color: #fff;
+    font-size: 60px;
+}
+
+#sec-03-text-01 .text-01-h1 .text-01 {
+    width: 60%;
+    color: #ffffff9a;
+}
+
+#sec-03-text-01 .page02 {
+    color: #fff;
+}
+
+#section03 .images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.images div:nth-child(1) {
+    width: 49.4%;
+    height: 70vh;
+    background-image: url(https://cdn.prod.website-files.com/69e54bc23a3ed36aaabaad40/69e54bc23a3ed36aaabab1a2_8ba7a843959bc00b9b692e2085cbcd0f_684f37523ce7f016f3cf34f4_magnific-sP3LPSZmIKtOUlL6qtGo-Close-Up%20Knitwear%20Duo-new.png);
+    background-position: center;
+    background-size: cover;
+    border-right: 0px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.images div:nth-child(2) {
+    width: 49.4%;
+    height: 70vh;
+    background-image: url(https://cdn.prod.website-files.com/69e54bc23a3ed36aaabaad40/69e54bc23a3ed36aaabab17c_123d42880b16b7770ebd07c008b12def_Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2814%29.png);
+    background-position: center;
+    background-size: cover;
+    border-left: 0px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#section03 .sec-03-text-02-p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 350px;
+    padding-left: 60px;
+    padding-right: 40px;
+
+}
+
+#section03 .text-02-p-01 {
+    width: 45%;
+    color: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-02-p-01 p:nth-child(1) {
+    color: #ffffff61;
+}
+
+#section03 .text-02-p-02 {
+    color: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
